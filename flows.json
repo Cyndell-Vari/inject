@@ -1,12 +1,31 @@
 [
     {
-        "id": "0d2bc2b970f3b4d2",
-        "type": "comment",
-        "z": "34fdec5b89347b87",
-        "name": "INJECT",
-        "info": "",
-        "x": 110,
-        "y": 20,
-        "wires": []
+        "id": "292381027ab43083",
+        "type": "inject",
+        "z": "7272ecf072f4e07f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Hello world",
+        "payloadType": "str",
+        "x": 200,
+        "y": 240,
+        "wires": [
+            [
+                "9d92ac1a62673000"
+            ]
+        ]
     }
 ]
